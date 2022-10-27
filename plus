@@ -2,13 +2,13 @@
 # SPDX-FileCopyrightText: 2022 yukihiro <s.yuki1210@icloud.com>
 import sys
 
-ans = 0.0 
+ans = 0 
 for line in sys.stdin:
     try:
         ans +=int(line)
     except:
         ans +=float(line)
 
-print(ans)
+print(int(ans))
 
 
