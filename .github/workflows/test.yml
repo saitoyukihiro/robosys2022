@@ -4,6 +4,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - usus: actions/checkout@v3
+    - uses: actions/checkout@v3
     - name: All test
       runs: bush -xv ./test.bash
