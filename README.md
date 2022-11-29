@@ -18,9 +18,9 @@ $ git clone https://github.com/saitoyukihiro/robosys2022.git
 
 # 実行の仕方:
 $ seq 足したい数字の数 | ./plus
-
-例$ seq 5 | ./plus
 ```
+例$ seq 5 | ./plus
+
 結果:15
 ```
 
